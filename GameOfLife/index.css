@@ -1,0 +1,124 @@
+body {
+    background-color: #008080;
+}
+
+
+
+.imgContainer{
+
+    display: flex;
+    justify-content: center;
+
+}
+
+@media screen and (max-width: 650px){
+    .imgContainer {
+        width: 100%;
+background-size: contain;        height: auto;
+    }
+    
+}
+
+@media screen and (max-width: 418px) {
+    .imgContainer {
+      background-size: cover;
+    }
+  }
+
+
+
+.title {
+    display: flex;
+    margin-top:50px;
+   border-left: solid  rgb(235, 235, 235) 3px;
+    text-align:right 5px;
+    background-image: linear-gradient(to right, rgb(0 ,14 , 132), rgb(48, 118, 185));
+    color: white;
+}
+
+.belowHeader {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    border-right: solid black 5px;
+    background-color: rgb(180, 180, 180);
+}
+
+.sliderControls {
+    display: flex;
+    margin-left: 10px;
+}
+
+.colorArea{
+    display: flex;
+    margin-right: 10px;
+}
+
+
+
+#canvas {
+    
+    display: flex;
+    justify-content: center;
+    border: 5px solid black;
+}
+
+.bottomCanvas {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(180, 180, 180);
+    border-bottom: solid black 3px;
+}
+
+.gameButtons {
+    display: flex;
+    justify-content: space-around;
+    padding: 5px
+}
+
+.patternSelector {
+
+display: flex;
+align-items: center;
+
+}
+
+.rules{
+    display: flex;
+    align-items: center;
+    padding: 2px;
+    justify-content: space-evenly;
+}
+
+
+  .footBar {
+    display: flex;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(180, 180, 180);
+    box-shadow: 0 0 0 4px rgb(204, 204, 204);
+    color: black;
+    text-align: center;
+    justify-content: space-between;
+  }
+
+  .windowStart {
+    display: flex;
+    padding: 2px;
+    margin-left: 5px;
+  }
+
+  .button.btn.btn-secondary.dropdown-toggle.show {
+    --bs-btn-active-bg: #565e64;
+  }
+
+.timeDate {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 8px;
+    margin-right:8px
+}
+

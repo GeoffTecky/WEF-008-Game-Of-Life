@@ -1,0 +1,78 @@
+body {
+  background-color: lightblue;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: space-between;
+  padding: 100px;
+  font-family: "Public Pixel", sans-serif;
+}
+.icons-group1 {
+  display: flex;
+  justify-content: space-between !important;
+  gap: 20px;
+}
+
+.icons-group2 {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  font-size: 50px;
+  color: navy;
+}
+
+.middle {
+  display: flex;
+  justify-content: space-between;
+  padding: 100px;
+}
+
+.intro {
+  display: flex;
+  flex-direction: row;
+  text-overflow: clip;
+  border-style: groove;
+  font-family: "Public Pixel", sans-serif;
+}
+
+.image {
+  display: flex;
+  padding: 90px;
+  object-fit: fit;
+  justify-content: end;
+  border-style: groove;
+}
+
+.Bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+  font-size: 50px;
+  border-radius: 12px;
+}
+
+.game-of-life {
+  display: flex;
+  border-radius: 12px;
+}
+
+#Click {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  border: none;
+  width: 1100px;
+  border-radius: 15px;
+  box-shadow: inset 10px;
+  color: rgb(42, 42, 42);
+  font-family: "Public Pixel", sans-serif;
+}
+
