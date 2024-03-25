@@ -72,7 +72,7 @@ function windowResized() {
   draw();
 }
 
-
+// Small spaceships flying when selecting dropdown box
 function init3() {
   for (let i = 0; i < columns; i++) {
     for (let j = 0; j < rows; j++) {
@@ -86,7 +86,7 @@ function init3() {
   currentBoard[2][2] = 1;
   currentBoard[1][1] = 1;
 }
-
+//Initialize blank game mode
 function init() {
   
   for (let i = 0; i < columns; i++) {
@@ -106,7 +106,7 @@ function init() {
     }
   }
 }
-
+//Randomize board after selecting "random" button
 function init2() {
   for (let i = 0; i < columns; i++) {
     for (let j = 0; j < rows; j++) {
@@ -364,41 +364,7 @@ else {
 };
 });
 
-// function keyPressed() {
-//   if (keyCode == 37) {
-//       console.log("move left")
-
-//       mouseCurrentX--
-//   }
-
-//   if (keyCode == 38) {
-//       console.log("move up")
-//       mouseCurrentY--
-//   }
-
-//   if (keyCode == 39) {
-//       console.log("move right")
-//       mouseCurrentX++
-//   }
-//   if (keyCode == 40) {
-//       console.log("move down")
-//       mouseCurrentY++
-
-//   }
-
-
-//   init2()
-
-//   fill('red');
-//   stroke(strokeColor);
-//   rect(((mouseCurrentX) % columns) * unitLength, ((mouseCurrentY) % rows) * unitLength, unitLength, unitLength);
-
-// }
-
-
-function changeColor() {
-  
-  
+function changeColor() {  
   boxColor = color(
     Math.floor(Math.random() * 255),
     Math.floor(Math.random() * 255),
